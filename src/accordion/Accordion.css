@@ -1,0 +1,47 @@
+div#accordions {
+    width: 50%;
+    margin: 60px auto 0 auto;
+    background-color: #fff;
+}
+div#accordions {
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 5%);
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+h1.main-heading {
+    text-align: center;
+}
+.main-container:hover {
+    border: 1px solid #001fff8c;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.question-heading {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+.question-heading p {
+    flex: 0 0 5%;
+    max-width: 5%;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0;
+}
+.question-heading h3 {
+    flex: 0 0 95%;
+    max-width: 95%;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+p.answer-para {
+    margin: 0 0 10px 5%;
+    line-height: 25px;
+}
+.main-container {
+    border: 1px solid transparent;
+    border-radius: 0px;
+    transition: 0.3s;
+}
